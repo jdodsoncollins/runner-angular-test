@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-chip.mat-standard-chip {
+    background: white;
+    color: $charcoal;
+    border: 1px solid #B7B8BB;
+    border-radius: 16px;
+    margin-right: 8px;
+    padding: 7px 16px;
+    text-align: center;
+    text-transform: lowercase;
+    outline: none;
+    height: auto;
+  }
